@@ -1,59 +1,11 @@
-## Introduction
+Unity uses X, Y and Z coordinates to position objects in 3D space.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+A unit, the length of a grid square, corresponds to 1 metre in the real world.
 
-### What you will make
+If you add a plane and don’t rotate it then, X and Z give the coordinates on the plane and Y gives the up and down coordinates from the plane.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Coordinates are given as a ‘Vector3’ or 3 numbers. The centre or default position of the world is (0,0,0).
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+(0, 1, 0) is a position at the centre and 1 metre up.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+(1, 0, 1) is a position on the plane (Y=0) and one unit away in the X and Z directions.
