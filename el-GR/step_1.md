@@ -1,13 +1,13 @@
-Unity uses x, y, and z coordinates to position objects in 3D space.
+Το Unity χρησιμοποιεί συντεταγμένες x, y και z για να τοποθετήσει αντικείμενα στον τρισδιάστατο χώρο.
 
-A unit, the length of a grid square, corresponds to 1 metre in the real world.
+Μια μονάδα, το μήκος ενός τετραγώνου στο πλέγμα, αντιστοιχεί σε 1 μέτρο στον πραγματικό κόσμο.
 
-If you add a plane and don’t rotate it, then x and z give the coordinates on the plane and y gives the up and down coordinates from the plane.
+Εάν προσθέσεις ένα επίπεδο και δεν το περιστρέψεις, τότε τα x και z δίνουν τις συντεταγμένες στο επίπεδο και το y δίνει τις συντεταγμένες πάνω και κάτω από το επίπεδο.
 
-![Image of a plane with x-, y-, and z-axis labelled and the length and width shown as 1m.](images/coordinates.png)
+![Εικόνα ενός επιπέδου με τους άξονες x-, y- και z-σημασμένους και το μήκος και το πλάτος να φαίνονται ως 1m.](images/coordinates.png)
 
-Coordinates are given as a ‘Vector3’ or three numbers. The centre or default position of the world is (0, 0, 0).
+Οι συντεταγμένες δίνονται ως ένα διάνυσμα τύπου 'Vector3' ή ως μία τριάδα αριθμών. Η κεντρική ή προεπιλεγμένη θέση του κόσμου είναι (0, 0, 0).
 
-(0, 1, 0) is a position at the centre and 1 metre up.
+(0, 1, 0) είναι μια θέση στο κέντρο και 1 μέτρο επάνω.
 
-(1, 0, 1) is a position on the plane (y = 0) and one unit away in the x and z directions.
+Το (1, 0, 1) είναι μια θέση στο επίπεδο (y = 0) και μια μονάδα μακριά στις κατευθύνσεις x και z.
