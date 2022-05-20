@@ -1,13 +1,13 @@
-Unity uses x, y, and z coordinates to position objects in 3D space.
+تستخدم Unity محاور x وy وz لوضع الكائنات في بيئة ثلاثيّة الأبعاد.
 
-A unit, the length of a grid square, corresponds to 1 metre in the real world.
+الوحدة، طول المربّع على الشبكة، تعادل مترًا واحدًا على أرض الواقع.
 
-If you add a plane and don’t rotate it, then x and z give the coordinates on the plane and y gives the up and down coordinates from the plane.
+إذا أضفت مستويًا ولم تقم بتدويره، ستعطي x وz الإحداثيّاتِ في المستوي، أمّا y فتعطي الاتّجاه للأعلى أو الأسفل من المستوي.
 
-![Image of a plane with x-, y-, and z-axis labelled and the length and width shown as 1m.](images/coordinates.png)
+![صورة لمستوي بثلاثة محاور، x وy وz، محدّدة مع الطول والعرض مترًا واحدًا.](images/coordinates.png)
 
-Coordinates are given as a ‘Vector3’ or three numbers. The centre or default position of the world is (0, 0, 0).
+تُعطى الأبعاد كـ"Vector3" أ, ثلاثة أرقام. المركز أو الموضع الافتراضي للعالم هو (0, 0, 0).
 
-(0, 1, 0) is a position at the centre and 1 metre up.
+(0, 1, 0) هو الموضوع الموجود في المركز، بارتفاع متر إلى الأعلى.
 
-(1, 0, 1) is a position on the plane (y = 0) and one unit away in the x and z directions.
+(1, 0, 1) هو الموضع الموجود على مستوى الأرض (y=0)، ويبعد وحدة واحدة باتّجال x ووحدة باتّجاه z.
