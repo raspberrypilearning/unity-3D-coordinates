@@ -1,13 +1,13 @@
-Unity uses x, y, and z coordinates to position objects in 3D space.
+Unity utilise les coordonnées x, y et z pour positionner les objets dans l'espace 3D.
 
-A unit, the length of a grid square, corresponds to 1 metre in the real world.
+Une unité, la longueur d'un carré de grille, correspond à 1 mètre dans le monde réel.
 
-If you add a plane and don’t rotate it, then x and z give the coordinates on the plane and y gives the up and down coordinates from the plane.
+Si tu ajoutes un plane et ne le fais pas pivoter, alors x et z donnent les coordonnées sur le plane et y donne les coordonnées haut et bas du plane.
 
-![Image of a plane with x-, y-, and z-axis labelled and the length and width shown as 1m.](images/coordinates.png)
+![Image d'un plane avec les axes x, y et z étiquetés et la longueur et la largeur indiquées comme 1 m.](images/coordinates.png)
 
-Coordinates are given as a ‘Vector3’ or three numbers. The centre or default position of the world is (0, 0, 0).
+Les coordonnées sont données sous la forme d'un "Vector3" ou de trois nombres. Le centre ou la position par défaut du monde est (0, 0, 0).
 
-(0, 1, 0) is a position at the centre and 1 metre up.
+(0, 1, 0) est une position au centre et à 1 mètre vers le haut.
 
-(1, 0, 1) is a position on the plane (y = 0) and one unit away in the x and z directions.
+(1, 0, 1) est une position sur le plane (y = 0) et une unité de distance dans les directions x et z.
